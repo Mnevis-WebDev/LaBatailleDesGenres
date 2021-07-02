@@ -74,7 +74,7 @@ function questionSuivante() {
     return;
   }
   //impression du dernier mot avec son genre
-  insererElement();
+  //insererElement();
 
   //remise à zéro des contours d'images
   //changement de class pour le contour de l'image
