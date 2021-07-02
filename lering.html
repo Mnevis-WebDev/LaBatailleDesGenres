@@ -12,22 +12,22 @@
   <!-- This is to use the fontawesome library -->
   <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
 
-<!-- Intégration du CSS -->
+  <!-- Intégration du CSS -->
   <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
   <div class="Top">
-    <span class="d-block p-4 bg-dark text-white text-center">La bataille des genres <img src="images/logo.png" class="logo" ></span>
+    <span class="d-block p-4 bg-dark text-white text-center">La bataille des genres <img src="images/logo.png" class="logo"></span>
   </div>
   <div class="row">
     <div class="col-4">
-      <img src="images/masculin.jpg" class="rounded mx-auto d-block" id = "mas" height="250" size="250" onclick="reponseMasculin()">
+      <img src="images/masculin.jpg" class="rounded mx-auto d-block" id="mas" height="250" size="250" onclick="reponseMasculin()">
     </div>
     <div class="col-4 text-center">
       Est-ce que le mot <strong><span id="question">photo</span></strong> est
       <p id=arrow><i class="fas fa-long-arrow-alt-left fa-4x blue-arrow" onclick="reponseMasculin()"></i> <i class="fas fa-long-arrow-alt-right fa-4x pink-arrow " onclick="reponseFeminin()"></i> </p>
-      <img src="" id="imgReponse"  >
+      <img src="" id="imgReponse">
 
     </div>
     <div class="col-4">
@@ -35,23 +35,25 @@
     </div>
   </div>
 
-<div class="Middle">
+  <div class="Middle">
 
 
-  <div class="row">
-    <div class="col-4">
+    <div class="row">
+      <div class="col-4">
 
-    </div>
-    <div class="col-4">
-      <div class="row menu">
-        <button type="button" class="btn btn-danger" id = "fem" onclick="questionSuivante()">Mot suivant !</button>
       </div>
-    <button type="button" class="btn btn-primary" onclick="changerDeListe()">Changer de liste de Mots</button>
+      <div class="col-4 text-center">
+        <div class="row menu">
+          <button type="button" class="btn btn-danger" id="fem" onclick="questionSuivante()">Mot suivant !</button>
+        </div>
+        <button type="button" class="btn btn-primary" onclick="changerDeListe()">Changer de liste de Mots</button>
       </div>
-    <div class="col-4">
+      <div class="col-4 text-center">
 
+
+      </div>
     </div>
-  </div>
+    <p class="text-center">V2</p>
   </div>
 
 
