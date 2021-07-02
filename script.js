@@ -145,19 +145,19 @@ function pasPret() {
   document.querySelector(".btn").classList.add("btn-danger");
 }
 
-function insererElement() {
-  //creation d'une liste des réponses déjà fait
-  var liste = document.getElementById("liste");
-  li = document.createElement('p');
-  var leGenre = "";
-  if (genreDesNoms[0][1] == "f") {
-    leGenre = "féminin";
-  } else {
-    leGenre = "masculin";
-  }
-  li.textContent = genreDesNoms[0][0] + " est " + leGenre;
-  liste.insertBefore(li, liste.lastElementChild);
-}
+// function insererElement() {
+//   //creation d'une liste des réponses déjà fait
+//   var liste = document.getElementById("liste");
+//   li = document.createElement('p');
+//   var leGenre = "";
+//   if (genreDesNoms[0][1] == "f") {
+//     leGenre = "féminin";
+//   } else {
+//     leGenre = "masculin";
+//   }
+//   li.textContent = genreDesNoms[0][0] + " est " + leGenre;
+//   liste.insertBefore(li, liste.lastElementChild);
+// }
 
 function effacerLaListe() {
 
