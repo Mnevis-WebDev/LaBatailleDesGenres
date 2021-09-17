@@ -1,45 +1,57 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Le genre des noms en français</title>
 
-<head>
-  <meta charset="utf-8">
-  <title>Le genre des noms en français</title>
+    <!-- Integration de bootstrap -->
+    <link rel="stylesheet" href="bootstrap.min.css" />
+    <!-- Intégration du fichier javascript -->
+    <script type="text/javascript" src="script.js"></script>
 
-  <!-- Integration de bootstrap -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <!-- Intégration du CSS -->
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
 
-  <!-- Intégration du fichier javascript -->
-  <script type="text/javascript" src="script.js"></script>
-
-  <!-- Intégration du CSS -->
-    <link rel="stylesheet" href="css/styles.css">
-
-</head>
-
-
-<div class="Top">
-  <span class="d-block p-4 bg-dark text-white text-center">La bataille des genres <img src="images/logo.png" class="logo" ></span>
-</div>
-<div class="container py-4">
-
-
-  <div class="p-5 mb-4 bg-light rounded-3">
-    <div class="container-fluid py-5">
-      <h1 class="display-5 fw-bold">Les genres en français</h1>
-      <p class="col-md-8 fs-4">
-        En français les genres sont difficile à apprendre, car il n'exsite aucune règle. Heureusement il existe seulement deux genres. Pour maîtriser cette notion il faut monter sur le ring et se battre
-      </p>
-      <a class="btn btn-primary" href="lering.html" role="button" onclick="acceptationDuCode()">Je monte sur le ring </a>
-      <a class="btn btn-danger " role="button" onclick="pasPret()" id="effacerLeBouton">Je ne suis pas prêt ! </a>
-    </div>
-  </div>
-
-
-
-  
-</div>
-
-</body>
-
+  <header>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-primary">
+      <div class="container-fluid d-block Top text-center">
+        <a class="navbar-brand" href="/"
+          >La bataille des genres <img src="images/logo.png" class="logo"
+        /></a>
+      </div>
+    </nav>
+  </header>
+  <body>
+    <main>
+      <div class="container">
+        <div class="card text-white bg-secondary mb-3">
+          <div class="card-header">Les genres en français</div>
+          <div class="card-body">
+            <p class="card-text">
+              En français les genres sont difficile à apprendre, car il n'exsite
+              aucune règle. Heureusement il existe seulement deux genres. Pour
+              maîtriser cette notion il faut monter sur le ring et se battre.
+            </p>
+          </div>
+          <div class="buttons">
+            <a
+              class="btn btn-outline-secondary"
+              href="lering.html"
+              role="button"
+              onclick="acceptationDuCode()"
+              >Je monte sur le ring
+            </a>
+            <a
+              class="btn btn-outline-secondary"
+              role="button"
+              onclick="pasPret()"
+              id="effacerLeBouton"
+              >Je ne suis pas prêt !
+            </a>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
 </html>

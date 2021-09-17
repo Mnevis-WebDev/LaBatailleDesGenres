@@ -1,3 +1,63 @@
+/* //introduction page CSS
+//Card from Bootstrap and used the Quartz model from bootwatch */
+.navbar-brand {
+  font-size: 2rem;
+}
+
+.logo {
+  width: 70px;
+  height: auto;
+  padding-top: 0%;
+  padding-left: 1%;
+}
+
+.buttons {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 2rem;
+}
+.buttons a {
+  margin: 5px;
+}
+
+.container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+}
+
+.card-header {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* This is the CSS for the ring part */
+.reponse {
+  height: 400px;
+}
+
+img {
+  margin: 15px;
+}
+
+.question {
+  margin: 0;
+  padding: 0;
+}
+#imgReponse {
+  width: 250px;
+  height: auto;
+  padding-top: 0%;
+  border-radius: 40px;
+}
+#divImgReponse {
+  display: flex;
+  justify-content: center;
+}
+/* This part is still uncheck */
+
 #title {
   background-color: white;
 }
@@ -8,52 +68,37 @@ h1 {
   line-height: 1.5;
   color: black;
 }
-img{
-  padding-top: 20%;
-}
-span{
+
+span {
   font-size: 2rem;
-  padding-bottom:  2%;
+  padding-bottom: 2%;
 }
 
 .afterRedButton {
   color: red;
 }
 
-#imgReponse {
-  width: 150px;
-  height: auto;
-  padding-top:0%;
-  padding-bottom: 2%;
-}
-.Top{
+.Top {
   font-family: fantasy;
   font-size: 3rem;
 }
-.logo{
-  width: 70px;
-  height:auto;
-  padding-top: 0%;
-  padding-left: 1%;
-}
-#question{
+
+#question {
   font-size: 2rem;
 }
-.menu{
+.menu {
   padding-bottom: 2%;
 }
-#liste{
-  text-align:center;
-
+#liste {
+  text-align: center;
 }
-.blue-arrow{
-  color:blue;
+.blue-arrow {
+  color: blue;
 }
-.pink-arrow{
-  color:pink;
+.pink-arrow {
+  color: pink;
 }
-#arrow{
+#arrow {
   font-size: 1rem;
   padding: 3%;
-
 }
