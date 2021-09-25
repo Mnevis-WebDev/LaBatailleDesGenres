@@ -1,5 +1,6 @@
-/* //introduction page CSS
-//Card from Bootstrap and used the Quartz model from bootwatch */
+/* Utilisation de Quartz model de Bootwatch pour la présentation de se projet*/
+
+/* Page d'introduction */
 .navbar-brand {
   font-size: 2rem;
 }
@@ -30,7 +31,7 @@
   font-weight: bold;
 }
 
-/* This is the CSS for the ring part */
+/* CSS pour la seconde page de quiz "le ring" */
 .reponse {
   height: 400px;
 }
